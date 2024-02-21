@@ -35,7 +35,7 @@
 </template>
 
 <script setup>
-import { playlistById } from "@/store/AudioPlayer";
+import { playlistById } from "@/store/PlaylistByid";
 import { chillMix } from "@/store/AudioPlayer";
 import { storeToRefs } from "pinia";
 import { computed, onMounted } from "vue";
