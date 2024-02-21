@@ -1,0 +1,17 @@
+// base
+@import '../base/base';
+@import '../base/reset';
+
+
+
+
+
+
+
+//  blocks
+@import '@/components/SideBar/sideBar.scss';
+@import '@/components/HeaderPlayListApp/headerPlayList.scss';
+@import '@/components/NavigationBar/navigationBar.scss';
+@import '@/components/ChillMixMusic/playListMusic.scss';
+@import '@/components/MusicControll/musicControl.scss';
+@import '@/components/Search/search.scss';

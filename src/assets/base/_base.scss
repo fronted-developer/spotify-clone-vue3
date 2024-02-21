@@ -1,0 +1,13 @@
+$CircularStd: ('Black', 900),
+('Bold', 700),
+('Book', 400),
+('Medium', 500);
+
+@each $name,
+$weight in $CircularStd {
+    @font-face {
+        font-family: 'CircularStd';
+        src: url(../fonts/CircularStd/CircularStd-#{$name}.ttf);
+        font-weight: $weight;
+    }
+}

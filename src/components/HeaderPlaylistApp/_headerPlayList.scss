@@ -1,0 +1,111 @@
+
+.playlist__item {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 54px;
+    max-width: 1260px;
+    width: 100%;
+}
+
+
+
+.homepage {
+    width: 100%;
+    background: linear-gradient(180deg, #3333A3 5.09%, #121212 40.4%);
+    min-height: 100vh;
+}
+
+.header__playlist-title {
+    color: #FFF;
+    font-family: "CircularStd";
+    font-size: 39px;
+    font-weight: 700;
+    letter-spacing: -0.39px;
+}
+
+.playlist__info {
+    display: flex;
+    justify-content: center;
+    width: 224px;
+    height: 324px;
+  
+    position: relative;
+ 
+}
+.playlist__info:hover .playlist__card-playbtn {
+    transition: 400ms;
+    opacity: 1;
+    transform: translateY(-7px);
+}
+.playlist__info:hover .background__color {
+    opacity: 0.10;
+    transition: 400ms;
+ 
+}
+
+
+
+.playlist__card {
+    margin-bottom: 25px;
+    position: relative;
+
+    &-playbtn {
+        position: absolute;
+        bottom: 7px;
+        right: 15px;
+        opacity: 0;
+        width: 50px;
+    }
+
+
+    
+
+
+}
+
+.playlist__desc {
+    width: 182px;
+
+    &-playlist {
+        color: #FFF;
+        font-family: "CircularStd";
+        font-size: 20px;
+        font-weight: 700;
+        letter-spacing: 0.6px;
+        margin-bottom: 8px;
+    }
+
+    &-artists {
+        color: #B3B3B3;
+        font-family: "CircularStd";
+        font-size: 18px;
+        font-weight: 450;
+
+    }
+}
+
+
+
+.playlist__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.background__color{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0.05;
+    border-radius: 8px;
+    background: #FFF;
+}
+
+.header__playlist-title {
+    margin-bottom: 30px;
+}
+
+.playlist__card-img {
+    height: 186px;
+}
